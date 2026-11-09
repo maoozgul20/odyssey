@@ -12,7 +12,7 @@ type E = SimulationLinkDatum<N> & { src: string; dst: string; relation: string; 
 type Ev = { type: string; id: string | number; title: string; text: string; url?: string; thumb_url?: string; start_met?: number; rerank?: number };
 type NodeDetail = { id: string; label: string; kind: string; station: string; description: string; weight: number; neighbors: { src: string; dst: string; relation: string; weight: number; label: string; kind: string; station: string }[]; evidence: Ev[] };
 
-const STATION_COL: Record<string, string> = { "mission-control": "#4dffb4", mars: "#ff6a4d", starship: "#4fd8ff", "planet-lab": "#b47cff", bridge: "#ffc94d" };
+const STATION_COL: Record<string, string> = { "mission-control": "#4ee59a", mars: "#ff8a4c", starship: "#4fc8e6", "planet-lab": "#d58cf0", bridge: "#e8c25a" };
 const STATION_NAME: Record<string, string> = { "mission-control": "Apollo 13", mars: "Mars", starship: "Exoplanets & papers", "planet-lab": "Habitability", bridge: "Bridges" };
 const EXAMPLES = [
   "How is the CO2 problem on Apollo 13 connected to exoplanet atmosphere research?",
@@ -91,7 +91,7 @@ export default function KnowledgeMap() {
         const a = e.source as N, b = e.target as N;
         if (!on(a) || !on(b)) continue;
         const hot = lit ? lit.nodes.has(a.id) && lit.nodes.has(b.id) : selId ? a.id === selId || b.id === selId : false;
-        ctx.strokeStyle = hot ? "rgba(255,192,77,0.9)" : a.station === "bridge" || b.station === "bridge" || a.station !== b.station ? "rgba(196,139,255,0.35)" : "rgba(94,231,255,0.14)";
+        ctx.strokeStyle = hot ? "rgba(255,192,77,0.9)" : a.station === "bridge" || b.station === "bridge" || a.station !== b.station ? "rgba(232,194,90,0.3)" : "rgba(130,170,200,0.14)";
         ctx.lineWidth = (hot ? 1.6 : 0.6 + Math.log1p(e.weight) / 4) / k;
         ctx.beginPath();
         ctx.moveTo(a.x!, a.y!);
@@ -115,7 +115,7 @@ export default function KnowledgeMap() {
         ctx.fill();
         ctx.shadowBlur = 0;
         if (lit?.seeds.has(n.id) || n.id === selId) {
-          ctx.strokeStyle = "#c48bff";
+          ctx.strokeStyle = "#e8c25a";
           ctx.lineWidth = 2.5 / k;
           ctx.beginPath();
           ctx.arc(n.x!, n.y!, n.r + 5 / k, 0, Math.PI * 2);

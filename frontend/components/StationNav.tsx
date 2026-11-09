@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Logo } from "@/components/Art";
+import { Orbit } from "lucide-react";
 
 export const STATIONS = [
   { href: "/mission-control", n: 1, name: "Mission Control" },
@@ -12,10 +12,10 @@ export const STATIONS = [
 
 export function StationNav({ current }: { current: string }) {
   return (
-    <nav aria-label="Stations" className="stations">
+    <nav aria-label="Stations" className="mission-nav">
       {STATIONS.map((s) => (
-        <Link key={s.href} href={s.href} className={`st ${s.href === current ? "on" : ""}`} aria-current={s.href === current ? "page" : undefined}>
-          {s.n} {s.name}
+        <Link key={s.href} href={s.href} className={s.href === current ? "selected" : ""} aria-current={s.href === current ? "page" : undefined}>
+          {String(s.n).padStart(2, "0")} {s.name}
         </Link>
       ))}
     </nav>
@@ -24,12 +24,14 @@ export function StationNav({ current }: { current: string }) {
 
 export function Brand({ current }: { current: string }) {
   return (
-    <div className="brand">
-      <Link href="/" className="logo-link" aria-label="ODYSSEY home">
-        <Logo />
+    <div className="mission-brand brand">
+      <Link href="/" className="back-orbit" aria-label="Back to stations">
+        <Orbit size={20} />
       </Link>
       <div>
-        <strong>ODYSSEY</strong>
+        <Link href="/" className="brand-word">
+          ODYSSEY
+        </Link>
         <StationNav current={current} />
       </div>
     </div>

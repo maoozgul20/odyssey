@@ -1,3 +1,4 @@
+import { SpaceScene } from "@/components/SpaceScene";
 import { Brand } from "@/components/StationNav";
 
 /** The frame every station shares: the ODYSSEY header and a title strip. */
@@ -16,6 +17,7 @@ export function Shell({
 }) {
   return (
     <div className="station" data-st={station}>
+      <SpaceScene variant="ambient" />
       <header className="top st-top">
         <Brand current={current} />
         <div className="st-title">
