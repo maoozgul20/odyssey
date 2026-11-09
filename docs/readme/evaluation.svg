@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1360 380" width="1360" height="380" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" role="img" aria-label="Evaluation results: hybrid search plus reranking doubles top-1 accuracy">
+<rect width="1360" height="380" fill="#070c16"/>
+<text x="30" y="44" fill="#efeee6" font-size="22" font-weight="700">Measured, not claimed</text>
+<text x="300" y="44" fill="#8fa1b3" font-size="13" font-family="'Courier New',monospace">25 questions with known answer times · real run on the full transcript</text>
+<rect x="90" y="78" width="12" height="12" fill="#4fc8e6"/><text x="110" y="89" fill="#efeee6" font-size="13">semantic</text><rect x="260" y="78" width="12" height="12" fill="#e8c25a"/><text x="280" y="89" fill="#efeee6" font-size="13">keyword</text><rect x="430" y="78" width="12" height="12" fill="#d58cf0"/><text x="450" y="89" fill="#efeee6" font-size="13">hybrid</text><rect x="600" y="78" width="12" height="12" fill="#4ee59a"/><text x="620" y="89" fill="#efeee6" font-size="13">hybrid + rerank</text><line x1="80" x2="1320" y1="320.0" y2="320.0" stroke="#4ee59a" stroke-opacity="0.08" stroke-dasharray="3 5"/><text x="72" y="324.0" fill="#8fa1b3" font-size="11" text-anchor="end" font-family="'Courier New',monospace">0</text><line x1="80" x2="1320" y1="215.0" y2="215.0" stroke="#4ee59a" stroke-opacity="0.08" stroke-dasharray="3 5"/><text x="72" y="219.0" fill="#8fa1b3" font-size="11" text-anchor="end" font-family="'Courier New',monospace">25%</text><line x1="80" x2="1320" y1="110.0" y2="110.0" stroke="#4ee59a" stroke-opacity="0.08" stroke-dasharray="3 5"/><text x="72" y="114.0" fill="#8fa1b3" font-size="11" text-anchor="end" font-family="'Courier New',monospace">50%</text><rect x="120.0" width="44" rx="2" fill="#4fc8e6" y="320" height="0">
+<animate attributeName="height" values="0;33.6;33.6;0" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.0s" repeatCount="indefinite"/>
+<animate attributeName="y" values="320;286.4;286.4;320" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.0s" repeatCount="indefinite"/></rect>
+<text x="142.0" y="278.4" fill="#efeee6" font-size="13" text-anchor="middle" font-family="'Courier New',monospace" opacity="0">8
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.14;0.88;1" dur="9s" begin="0.0s" repeatCount="indefinite"/></text><rect x="174.0" width="44" rx="2" fill="#e8c25a" y="320" height="0">
+<animate attributeName="height" values="0;33.6;33.6;0" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.15s" repeatCount="indefinite"/>
+<animate attributeName="y" values="320;286.4;286.4;320" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.15s" repeatCount="indefinite"/></rect>
+<text x="196.0" y="278.4" fill="#efeee6" font-size="13" text-anchor="middle" font-family="'Courier New',monospace" opacity="0">8
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.14;0.88;1" dur="9s" begin="0.15s" repeatCount="indefinite"/></text><rect x="228.0" width="44" rx="2" fill="#d58cf0" y="320" height="0">
+<animate attributeName="height" values="0;67.2;67.2;0" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.3s" repeatCount="indefinite"/>
+<animate attributeName="y" values="320;252.8;252.8;320" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.3s" repeatCount="indefinite"/></rect>
+<text x="250.0" y="244.8" fill="#efeee6" font-size="13" text-anchor="middle" font-family="'Courier New',monospace" opacity="0">16
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.14;0.88;1" dur="9s" begin="0.3s" repeatCount="indefinite"/></text><rect x="282.0" width="44" rx="2" fill="#4ee59a" y="320" height="0">
+<animate attributeName="height" values="0;134.4;134.4;0" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.44999999999999996s" repeatCount="indefinite"/>
+<animate attributeName="y" values="320;185.6;185.6;320" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.44999999999999996s" repeatCount="indefinite"/></rect>
+<text x="304.0" y="177.6" fill="#efeee6" font-size="13" text-anchor="middle" font-family="'Courier New',monospace" opacity="0">32
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.14;0.88;1" dur="9s" begin="0.44999999999999996s" repeatCount="indefinite"/></text><text x="223.0" y="346" fill="#efeee6" font-size="13" font-weight="600" text-anchor="middle" letter-spacing="1">HIT@1</text><rect x="425.0" width="44" rx="2" fill="#4fc8e6" y="320" height="0">
+<animate attributeName="height" values="0;117.6;117.6;0" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.25s" repeatCount="indefinite"/>
+<animate attributeName="y" values="320;202.4;202.4;320" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.25s" repeatCount="indefinite"/></rect>
+<text x="447.0" y="194.4" fill="#efeee6" font-size="13" text-anchor="middle" font-family="'Courier New',monospace" opacity="0">28
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.14;0.88;1" dur="9s" begin="0.25s" repeatCount="indefinite"/></text><rect x="479.0" width="44" rx="2" fill="#e8c25a" y="320" height="0">
+<animate attributeName="height" values="0;67.2;67.2;0" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.4s" repeatCount="indefinite"/>
+<animate attributeName="y" values="320;252.8;252.8;320" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.4s" repeatCount="indefinite"/></rect>
+<text x="501.0" y="244.8" fill="#efeee6" font-size="13" text-anchor="middle" font-family="'Courier New',monospace" opacity="0">16
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.14;0.88;1" dur="9s" begin="0.4s" repeatCount="indefinite"/></text><rect x="533.0" width="44" rx="2" fill="#d58cf0" y="320" height="0">
+<animate attributeName="height" values="0;117.6;117.6;0" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.55s" repeatCount="indefinite"/>
+<animate attributeName="y" values="320;202.4;202.4;320" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.55s" repeatCount="indefinite"/></rect>
+<text x="555.0" y="194.4" fill="#efeee6" font-size="13" text-anchor="middle" font-family="'Courier New',monospace" opacity="0">28
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.14;0.88;1" dur="9s" begin="0.55s" repeatCount="indefinite"/></text><rect x="587.0" width="44" rx="2" fill="#4ee59a" y="320" height="0">
+<animate attributeName="height" values="0;184.8;184.8;0" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.7s" repeatCount="indefinite"/>
+<animate attributeName="y" values="320;135.2;135.2;320" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.7s" repeatCount="indefinite"/></rect>
+<text x="609.0" y="127.2" fill="#efeee6" font-size="13" text-anchor="middle" font-family="'Courier New',monospace" opacity="0">44
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.14;0.88;1" dur="9s" begin="0.7s" repeatCount="indefinite"/></text><text x="528.0" y="346" fill="#efeee6" font-size="13" font-weight="600" text-anchor="middle" letter-spacing="1">HIT@3</text><rect x="730.0" width="44" rx="2" fill="#4fc8e6" y="320" height="0">
+<animate attributeName="height" values="0;151.2;151.2;0" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.5s" repeatCount="indefinite"/>
+<animate attributeName="y" values="320;168.8;168.8;320" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.5s" repeatCount="indefinite"/></rect>
+<text x="752.0" y="160.8" fill="#efeee6" font-size="13" text-anchor="middle" font-family="'Courier New',monospace" opacity="0">36
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.14;0.88;1" dur="9s" begin="0.5s" repeatCount="indefinite"/></text><rect x="784.0" width="44" rx="2" fill="#e8c25a" y="320" height="0">
+<animate attributeName="height" values="0;84.0;84.0;0" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.65s" repeatCount="indefinite"/>
+<animate attributeName="y" values="320;236.0;236.0;320" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.65s" repeatCount="indefinite"/></rect>
+<text x="806.0" y="228.0" fill="#efeee6" font-size="13" text-anchor="middle" font-family="'Courier New',monospace" opacity="0">20
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.14;0.88;1" dur="9s" begin="0.65s" repeatCount="indefinite"/></text><rect x="838.0" width="44" rx="2" fill="#d58cf0" y="320" height="0">
+<animate attributeName="height" values="0;134.4;134.4;0" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.8s" repeatCount="indefinite"/>
+<animate attributeName="y" values="320;185.6;185.6;320" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.8s" repeatCount="indefinite"/></rect>
+<text x="860.0" y="177.6" fill="#efeee6" font-size="13" text-anchor="middle" font-family="'Courier New',monospace" opacity="0">32
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.14;0.88;1" dur="9s" begin="0.8s" repeatCount="indefinite"/></text><rect x="892.0" width="44" rx="2" fill="#4ee59a" y="320" height="0">
+<animate attributeName="height" values="0;184.8;184.8;0" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.95s" repeatCount="indefinite"/>
+<animate attributeName="y" values="320;135.2;135.2;320" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.95s" repeatCount="indefinite"/></rect>
+<text x="914.0" y="127.2" fill="#efeee6" font-size="13" text-anchor="middle" font-family="'Courier New',monospace" opacity="0">44
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.14;0.88;1" dur="9s" begin="0.95s" repeatCount="indefinite"/></text><text x="833.0" y="346" fill="#efeee6" font-size="13" font-weight="600" text-anchor="middle" letter-spacing="1">HIT@5</text><rect x="1035.0" width="44" rx="2" fill="#4fc8e6" y="320" height="0">
+<animate attributeName="height" values="0;79.8;79.8;0" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.75s" repeatCount="indefinite"/>
+<animate attributeName="y" values="320;240.2;240.2;320" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.75s" repeatCount="indefinite"/></rect>
+<text x="1057.0" y="232.2" fill="#efeee6" font-size="13" text-anchor="middle" font-family="'Courier New',monospace" opacity="0">.19
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.14;0.88;1" dur="9s" begin="0.75s" repeatCount="indefinite"/></text><rect x="1089.0" width="44" rx="2" fill="#e8c25a" y="320" height="0">
+<animate attributeName="height" values="0;58.8;58.8;0" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.9s" repeatCount="indefinite"/>
+<animate attributeName="y" values="320;261.2;261.2;320" keyTimes="0;0.12;0.9;1" dur="9s" begin="0.9s" repeatCount="indefinite"/></rect>
+<text x="1111.0" y="253.2" fill="#efeee6" font-size="13" text-anchor="middle" font-family="'Courier New',monospace" opacity="0">.14
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.14;0.88;1" dur="9s" begin="0.9s" repeatCount="indefinite"/></text><rect x="1143.0" width="44" rx="2" fill="#d58cf0" y="320" height="0">
+<animate attributeName="height" values="0;96.6;96.6;0" keyTimes="0;0.12;0.9;1" dur="9s" begin="1.05s" repeatCount="indefinite"/>
+<animate attributeName="y" values="320;223.4;223.4;320" keyTimes="0;0.12;0.9;1" dur="9s" begin="1.05s" repeatCount="indefinite"/></rect>
+<text x="1165.0" y="215.4" fill="#efeee6" font-size="13" text-anchor="middle" font-family="'Courier New',monospace" opacity="0">.23
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.14;0.88;1" dur="9s" begin="1.05s" repeatCount="indefinite"/></text><rect x="1197.0" width="44" rx="2" fill="#4ee59a" y="320" height="0">
+<animate attributeName="height" values="0;151.2;151.2;0" keyTimes="0;0.12;0.9;1" dur="9s" begin="1.2s" repeatCount="indefinite"/>
+<animate attributeName="y" values="320;168.8;168.8;320" keyTimes="0;0.12;0.9;1" dur="9s" begin="1.2s" repeatCount="indefinite"/></rect>
+<text x="1219.0" y="160.8" fill="#efeee6" font-size="13" text-anchor="middle" font-family="'Courier New',monospace" opacity="0">.36
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1;0.14;0.88;1" dur="9s" begin="1.2s" repeatCount="indefinite"/></text><text x="1138.0" y="346" fill="#efeee6" font-size="13" font-weight="600" text-anchor="middle" letter-spacing="1">MRR@10</text>
+<text x="30" y="368" fill="#4ee59a" font-size="13" font-family="'Courier New',monospace">Reranking quadruples top-1 hits vs. plain vector search (8% → 32%) and nearly doubles MRR (0.19 → 0.36).</text>
+</svg>
