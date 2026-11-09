@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1360 300" width="1360" height="300" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" role="img" aria-label="How one question flows through the RAG pipeline">
+<defs><filter id="g"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="trail" x1="0" x2="1"><stop offset="0" stop-color="#4ee59a" stop-opacity="0"/><stop offset="1" stop-color="#4ee59a"/></linearGradient></defs>
+<rect width="1360" height="300" fill="#070c16"/>
+<text x="30" y="48" fill="#efeee6" font-size="22" font-weight="700">The journey of one question</text>
+<text x="30" y="72" fill="#4ee59a" font-size="12" letter-spacing="2" font-family="'Courier New',monospace">STATION 1 · MISSION CONTROL · RETRIEVAL-AUGMENTED GENERATION</text>
+<g>
+<rect x="30.0" y="110" width="146" height="92" rx="3" fill="#0d1726" stroke="#efeee6" stroke-opacity="0.3">
+ <animate attributeName="stroke-opacity" values="0.3;1;0.3;0.3" keyTimes="0;0.06;0.2;1" dur="8.0s" begin="0.00s" repeatCount="indefinite"/></rect>
+<rect x="30.0" y="110" width="146" height="92" rx="3" fill="#efeee6" opacity="0">
+ <animate attributeName="opacity" values="0;0.14;0;0" keyTimes="0;0.06;0.2;1" dur="8.0s" begin="0.00s" repeatCount="indefinite"/></rect>
+<text x="42.0" y="134" fill="#efeee6" font-size="11" font-family="'Courier New',monospace">STEP 1</text>
+<text x="42.0" y="160" fill="#efeee6" font-size="16" font-weight="600">Question</text>
+<text x="42.0" y="182" fill="#8fa1b3" font-size="11" font-family="'Courier New',monospace">“Is that bad?”</text>
+</g><line x1="176.0" y1="156" x2="194.9" y2="156" stroke="#2a3a4f" stroke-width="1.5"/><g>
+<rect x="194.9" y="110" width="146" height="92" rx="3" fill="#0d1726" stroke="#e8c25a" stroke-opacity="0.3">
+ <animate attributeName="stroke-opacity" values="0.3;1;0.3;0.3" keyTimes="0;0.06;0.2;1" dur="8.0s" begin="1.00s" repeatCount="indefinite"/></rect>
+<rect x="194.9" y="110" width="146" height="92" rx="3" fill="#e8c25a" opacity="0">
+ <animate attributeName="opacity" values="0;0.14;0;0" keyTimes="0;0.06;0.2;1" dur="8.0s" begin="1.00s" repeatCount="indefinite"/></rect>
+<text x="206.9" y="134" fill="#e8c25a" font-size="11" font-family="'Courier New',monospace">STEP 2</text>
+<text x="206.9" y="160" fill="#efeee6" font-size="16" font-weight="600">Rewrite</text>
+<text x="206.9" y="182" fill="#8fa1b3" font-size="11" font-family="'Courier New',monospace">vague → standalone</text>
+</g><line x1="340.9" y1="156" x2="359.7" y2="156" stroke="#2a3a4f" stroke-width="1.5"/><g>
+<rect x="359.7" y="110" width="146" height="92" rx="3" fill="#0d1726" stroke="#4fc8e6" stroke-opacity="0.3">
+ <animate attributeName="stroke-opacity" values="0.3;1;0.3;0.3" keyTimes="0;0.06;0.2;1" dur="8.0s" begin="2.00s" repeatCount="indefinite"/></rect>
+<rect x="359.7" y="110" width="146" height="92" rx="3" fill="#4fc8e6" opacity="0">
+ <animate attributeName="opacity" values="0;0.14;0;0" keyTimes="0;0.06;0.2;1" dur="8.0s" begin="2.00s" repeatCount="indefinite"/></rect>
+<text x="371.7" y="134" fill="#4fc8e6" font-size="11" font-family="'Courier New',monospace">STEP 3</text>
+<text x="371.7" y="160" fill="#efeee6" font-size="16" font-weight="600">Embed</text>
+<text x="371.7" y="182" fill="#8fa1b3" font-size="11" font-family="'Courier New',monospace">bge-small 384-d</text>
+</g><line x1="505.7" y1="156" x2="524.6" y2="156" stroke="#2a3a4f" stroke-width="1.5"/><g>
+<rect x="524.6" y="110" width="146" height="92" rx="3" fill="#0d1726" stroke="#4fc8e6" stroke-opacity="0.3">
+ <animate attributeName="stroke-opacity" values="0.3;1;0.3;0.3" keyTimes="0;0.06;0.2;1" dur="8.0s" begin="3.00s" repeatCount="indefinite"/></rect>
+<rect x="524.6" y="110" width="146" height="92" rx="3" fill="#4fc8e6" opacity="0">
+ <animate attributeName="opacity" values="0;0.14;0;0" keyTimes="0;0.06;0.2;1" dur="8.0s" begin="3.00s" repeatCount="indefinite"/></rect>
+<text x="536.6" y="134" fill="#4fc8e6" font-size="11" font-family="'Courier New',monospace">STEP 4</text>
+<text x="536.6" y="160" fill="#efeee6" font-size="16" font-weight="600">Hybrid search</text>
+<text x="536.6" y="182" fill="#8fa1b3" font-size="11" font-family="'Courier New',monospace">vector + full-text</text>
+</g><line x1="670.6" y1="156" x2="689.4" y2="156" stroke="#2a3a4f" stroke-width="1.5"/><g>
+<rect x="689.4" y="110" width="146" height="92" rx="3" fill="#0d1726" stroke="#d58cf0" stroke-opacity="0.3">
+ <animate attributeName="stroke-opacity" values="0.3;1;0.3;0.3" keyTimes="0;0.06;0.2;1" dur="8.0s" begin="4.00s" repeatCount="indefinite"/></rect>
+<rect x="689.4" y="110" width="146" height="92" rx="3" fill="#d58cf0" opacity="0">
+ <animate attributeName="opacity" values="0;0.14;0;0" keyTimes="0;0.06;0.2;1" dur="8.0s" begin="4.00s" repeatCount="indefinite"/></rect>
+<text x="701.4" y="134" fill="#d58cf0" font-size="11" font-family="'Courier New',monospace">STEP 5</text>
+<text x="701.4" y="160" fill="#efeee6" font-size="16" font-weight="600">RRF fusion</text>
+<text x="701.4" y="182" fill="#8fa1b3" font-size="11" font-family="'Courier New',monospace">rank 1/(k+r)</text>
+</g><line x1="835.4" y1="156" x2="854.3" y2="156" stroke="#2a3a4f" stroke-width="1.5"/><g>
+<rect x="854.3" y="110" width="146" height="92" rx="3" fill="#0d1726" stroke="#d58cf0" stroke-opacity="0.3">
+ <animate attributeName="stroke-opacity" values="0.3;1;0.3;0.3" keyTimes="0;0.06;0.2;1" dur="8.0s" begin="5.00s" repeatCount="indefinite"/></rect>
+<rect x="854.3" y="110" width="146" height="92" rx="3" fill="#d58cf0" opacity="0">
+ <animate attributeName="opacity" values="0;0.14;0;0" keyTimes="0;0.06;0.2;1" dur="8.0s" begin="5.00s" repeatCount="indefinite"/></rect>
+<text x="866.3" y="134" fill="#d58cf0" font-size="11" font-family="'Courier New',monospace">STEP 6</text>
+<text x="866.3" y="160" fill="#efeee6" font-size="16" font-weight="600">Rerank</text>
+<text x="866.3" y="182" fill="#8fa1b3" font-size="11" font-family="'Courier New',monospace">cross-encoder</text>
+</g><line x1="1000.3" y1="156" x2="1019.1" y2="156" stroke="#2a3a4f" stroke-width="1.5"/><g>
+<rect x="1019.1" y="110" width="146" height="92" rx="3" fill="#0d1726" stroke="#ff8a4c" stroke-opacity="0.3">
+ <animate attributeName="stroke-opacity" values="0.3;1;0.3;0.3" keyTimes="0;0.06;0.2;1" dur="8.0s" begin="6.00s" repeatCount="indefinite"/></rect>
+<rect x="1019.1" y="110" width="146" height="92" rx="3" fill="#ff8a4c" opacity="0">
+ <animate attributeName="opacity" values="0;0.14;0;0" keyTimes="0;0.06;0.2;1" dur="8.0s" begin="6.00s" repeatCount="indefinite"/></rect>
+<text x="1031.1" y="134" fill="#ff8a4c" font-size="11" font-family="'Courier New',monospace">STEP 7</text>
+<text x="1031.1" y="160" fill="#efeee6" font-size="16" font-weight="600">Cutoff + time</text>
+<text x="1031.1" y="182" fill="#8fa1b3" font-size="11" font-family="'Courier New',monospace">no future, no junk</text>
+</g><line x1="1165.1" y1="156" x2="1184.0" y2="156" stroke="#2a3a4f" stroke-width="1.5"/><g>
+<rect x="1184.0" y="110" width="146" height="92" rx="3" fill="#0d1726" stroke="#4ee59a" stroke-opacity="0.3">
+ <animate attributeName="stroke-opacity" values="0.3;1;0.3;0.3" keyTimes="0;0.06;0.2;1" dur="8.0s" begin="7.00s" repeatCount="indefinite"/></rect>
+<rect x="1184.0" y="110" width="146" height="92" rx="3" fill="#4ee59a" opacity="0">
+ <animate attributeName="opacity" values="0;0.14;0;0" keyTimes="0;0.06;0.2;1" dur="8.0s" begin="7.00s" repeatCount="indefinite"/></rect>
+<text x="1196.0" y="134" fill="#4ee59a" font-size="11" font-family="'Courier New',monospace">STEP 8</text>
+<text x="1196.0" y="160" fill="#efeee6" font-size="16" font-weight="600">Grounded LLM</text>
+<text x="1196.0" y="182" fill="#8fa1b3" font-size="11" font-family="'Courier New',monospace">cites [n] · streams</text>
+</g>
+<g filter="url(#g)"><rect x="-60" y="-2" width="60" height="4" fill="url(#trail)"/><circle r="6" fill="#4ee59a"/>
+<animateMotion dur="8.0s" repeatCount="indefinite" path="M30,214 H1330"/></g>
+<text x="30" y="250" fill="#8fa1b3" font-size="13">Only lines spoken before the current mission time are searchable, so the crew never knows the future. Weak matches are dropped, and if nothing relevant is found the answer says so.</text>
+<text x="30" y="274" fill="#8fa1b3" font-size="13">Answers stream token by token and every claim points back to a numbered radio excerpt.</text>
+</svg>
