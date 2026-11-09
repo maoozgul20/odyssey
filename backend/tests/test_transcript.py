@@ -81,3 +81,21 @@ def test_keyword_query_is_safe():
     assert keyword_query("What happened to the O2 tank?") == "happened | o2 | tank"
     assert keyword_query("'; drop table chunks; --") == "drop | table | chunks"
     assert keyword_query("the of and") == ""
+
+
+def test_vague_questions_are_detected():
+    from app.rag import is_vague
+
+    assert is_vague("What just happened?")
+    assert is_vague("Is that bad?")
+    assert not is_vague("Why did the crew build CO2 scrubbers out of tape and cardboard during the return?")
+
+
+def test_trim_keeps_only_spoken_lines():
+    from app.rag import trim_to
+
+    content = "[00:00:00:01] Launch Control: LIFT-OFF.\n[00:00:00:02] Jim Lovell (CDR): The clock is running.\n[00:00:01:03] CapCom: GO at 1."
+    text, last = trim_to(content, parse_met("00:00:00:30"))
+    assert text.endswith("The clock is running.") and "GO at 1" not in text
+    assert last == 2
+    assert trim_to(content, -5) == ("", -5)

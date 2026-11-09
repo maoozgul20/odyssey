@@ -1,0 +1,522 @@
+{
+  "run_at": "2026-11-09 11:21",
+  "seconds": 181.9,
+  "questions": 25,
+  "unanswerable": 3,
+  "methods": [
+    "semantic",
+    "keyword",
+    "hybrid",
+    "hybrid+rerank"
+  ],
+  "summary": {
+    "semantic": {
+      "hit@1": 0.08,
+      "hit@3": 0.28,
+      "hit@5": 0.36,
+      "mrr@10": 0.188
+    },
+    "keyword": {
+      "hit@1": 0.08,
+      "hit@3": 0.16,
+      "hit@5": 0.2,
+      "mrr@10": 0.143
+    },
+    "hybrid": {
+      "hit@1": 0.16,
+      "hit@3": 0.28,
+      "hit@5": 0.32,
+      "mrr@10": 0.231
+    },
+    "hybrid+rerank": {
+      "hit@1": 0.32,
+      "hit@3": 0.44,
+      "hit@5": 0.44,
+      "mrr@10": 0.36
+    }
+  },
+  "coverage_accuracy": 0.571,
+  "coverage": [
+    {
+      "q": "What did Lovell report to Houston right after the explosion?",
+      "answerable": true,
+      "covered": true,
+      "top_rerank": 0.302
+    },
+    {
+      "q": "What did the commander see out of the hatch shortly after the bang?",
+      "answerable": true,
+      "covered": false,
+      "top_rerank": -1.38
+    },
+    {
+      "q": "What were the crew asked to do with the cryogenic tanks just before the accident?",
+      "answerable": true,
+      "covered": false,
+      "top_rerank": null
+    },
+    {
+      "q": "How did Mission Control describe the improvised carbon dioxide adapter?",
+      "answerable": true,
+      "covered": false,
+      "top_rerank": null
+    },
+    {
+      "q": "What did the crew say when they saw the service module after letting it go?",
+      "answerable": true,
+      "covered": true,
+      "top_rerank": 1.885
+    },
+    {
+      "q": "What did Houston say to the lunar module when it was released?",
+      "answerable": true,
+      "covered": false,
+      "top_rerank": null
+    },
+    {
+      "q": "Which ship was the prime recovery ship?",
+      "answerable": true,
+      "covered": true,
+      "top_rerank": 6.37
+    },
+    {
+      "q": "Which comet were the crew given procedures to look for?",
+      "answerable": true,
+      "covered": false,
+      "top_rerank": null
+    },
+    {
+      "q": "What did Mission Control ask the crew to do with electrical load right after the undervolt?",
+      "answerable": true,
+      "covered": false,
+      "top_rerank": null
+    },
+    {
+      "q": "Which fuel cell's reactant valve did Houston ask them to close first?",
+      "answerable": true,
+      "covered": true,
+      "top_rerank": 4.205
+    },
+    {
+      "q": "When did Houston first mention using the lunar module as a lifeboat?",
+      "answerable": true,
+      "covered": false,
+      "top_rerank": null
+    },
+    {
+      "q": "What was the purpose of the PC plus 2 maneuver?",
+      "answerable": true,
+      "covered": true,
+      "top_rerank": 5.743
+    },
+    {
+      "q": "What did the crew plan to do about the urine dump?",
+      "answerable": true,
+      "covered": true,
+      "top_rerank": 2.28
+    },
+    {
+      "q": "How cold was it in the command module on the way home?",
+      "answerable": true,
+      "covered": true,
+      "top_rerank": 1.936
+    },
+    {
+      "q": "How well did the crew sleep on their first night in space?",
+      "answerable": true,
+      "covered": false,
+      "top_rerank": null
+    },
+    {
+      "q": "What did the commander say at lift-off?",
+      "answerable": true,
+      "covered": true,
+      "top_rerank": 1.606
+    },
+    {
+      "q": "What did Mission Control think of the TV broadcast before the accident?",
+      "answerable": true,
+      "covered": false,
+      "top_rerank": null
+    },
+    {
+      "q": "What did the commander say they had to do with the lithium hydroxide canisters?",
+      "answerable": true,
+      "covered": true,
+      "top_rerank": 2.636
+    },
+    {
+      "q": "When does radio blackout begin during re-entry?",
+      "answerable": true,
+      "covered": false,
+      "top_rerank": null
+    },
+    {
+      "q": "What did Swigert say about a lunar module impact?",
+      "answerable": true,
+      "covered": true,
+      "top_rerank": 2.224
+    },
+    {
+      "q": "What caused the service module RCS B warning light after the accident?",
+      "answerable": true,
+      "covered": false,
+      "top_rerank": -1.877
+    },
+    {
+      "q": "What capability did the crew confirm about the S-IVB during launch?",
+      "answerable": true,
+      "covered": true,
+      "top_rerank": 0.821
+    },
+    {
+      "q": "Did Houston want to do a descent engine burn immediately after the oxygen loss?",
+      "answerable": true,
+      "covered": false,
+      "top_rerank": null
+    },
+    {
+      "q": "What was the plan for charging the command module battery before entry?",
+      "answerable": true,
+      "covered": true,
+      "top_rerank": 5.611
+    },
+    {
+      "q": "What was the weather like in the landing area?",
+      "answerable": true,
+      "covered": true,
+      "top_rerank": 5.869
+    },
+    {
+      "q": "What rocks did the crew collect on the lunar surface?",
+      "answerable": false,
+      "covered": false,
+      "top_rerank": null
+    },
+    {
+      "q": "Who won the football World Cup in 1970?",
+      "answerable": false,
+      "covered": false,
+      "top_rerank": null
+    },
+    {
+      "q": "What is the capital city of Pakistan?",
+      "answerable": false,
+      "covered": false,
+      "top_rerank": null
+    }
+  ],
+  "per_question": [
+    {
+      "q": "What did Lovell report to Houston right after the explosion?",
+      "expect": [
+        "02:07:55:35"
+      ],
+      "ranks": {
+        "semantic": null,
+        "keyword": null,
+        "hybrid": null,
+        "hybrid+rerank": null
+      }
+    },
+    {
+      "q": "What did the commander see out of the hatch shortly after the bang?",
+      "expect": [
+        "02:08:09:07"
+      ],
+      "ranks": {
+        "semantic": null,
+        "keyword": null,
+        "hybrid": null,
+        "hybrid+rerank": null
+      }
+    },
+    {
+      "q": "What were the crew asked to do with the cryogenic tanks just before the accident?",
+      "expect": [
+        "02:07:52:58"
+      ],
+      "ranks": {
+        "semantic": null,
+        "keyword": null,
+        "hybrid": null,
+        "hybrid+rerank": null
+      }
+    },
+    {
+      "q": "How did Mission Control describe the improvised carbon dioxide adapter?",
+      "expect": [
+        "03:08:22:13",
+        "03:08:37:33"
+      ],
+      "ranks": {
+        "semantic": 2,
+        "keyword": null,
+        "hybrid": 10,
+        "hybrid+rerank": 1
+      }
+    },
+    {
+      "q": "What did the crew say when they saw the service module after letting it go?",
+      "expect": [
+        "05:18:04:46"
+      ],
+      "ranks": {
+        "semantic": null,
+        "keyword": null,
+        "hybrid": null,
+        "hybrid+rerank": null
+      }
+    },
+    {
+      "q": "What did Houston say to the lunar module when it was released?",
+      "expect": [
+        "05:21:30:05"
+      ],
+      "ranks": {
+        "semantic": null,
+        "keyword": null,
+        "hybrid": null,
+        "hybrid+rerank": null
+      }
+    },
+    {
+      "q": "Which ship was the prime recovery ship?",
+      "expect": [
+        "05:18:47:31"
+      ],
+      "ranks": {
+        "semantic": 3,
+        "keyword": 2,
+        "hybrid": 2,
+        "hybrid+rerank": 1
+      }
+    },
+    {
+      "q": "Which comet were the crew given procedures to look for?",
+      "expect": [
+        "01:07:05:44",
+        "01:23:45:01",
+        "02:07:53:07"
+      ],
+      "ranks": {
+        "semantic": 10,
+        "keyword": null,
+        "hybrid": null,
+        "hybrid+rerank": null
+      }
+    },
+    {
+      "q": "What did Mission Control ask the crew to do with electrical load right after the undervolt?",
+      "expect": [
+        "02:08:16:08",
+        "02:08:18:42"
+      ],
+      "ranks": {
+        "semantic": null,
+        "keyword": null,
+        "hybrid": null,
+        "hybrid+rerank": null
+      }
+    },
+    {
+      "q": "Which fuel cell's reactant valve did Houston ask them to close first?",
+      "expect": [
+        "02:08:57:07",
+        "02:08:57:40"
+      ],
+      "ranks": {
+        "semantic": 2,
+        "keyword": 1,
+        "hybrid": 1,
+        "hybrid+rerank": 1
+      }
+    },
+    {
+      "q": "When did Houston first mention using the lunar module as a lifeboat?",
+      "expect": [
+        "02:09:24:12"
+      ],
+      "ranks": {
+        "semantic": null,
+        "keyword": null,
+        "hybrid": null,
+        "hybrid+rerank": null
+      }
+    },
+    {
+      "q": "What was the purpose of the PC plus 2 maneuver?",
+      "expect": [
+        "02:15:05:35",
+        "02:15:49:02"
+      ],
+      "ranks": {
+        "semantic": 3,
+        "keyword": 8,
+        "hybrid": 3,
+        "hybrid+rerank": 1
+      }
+    },
+    {
+      "q": "What did the crew plan to do about the urine dump?",
+      "expect": [
+        "02:11:41:19",
+        "02:11:41:42"
+      ],
+      "ranks": {
+        "semantic": 3,
+        "keyword": 1,
+        "hybrid": 1,
+        "hybrid+rerank": 1
+      }
+    },
+    {
+      "q": "How cold was it in the command module on the way home?",
+      "expect": [
+        "03:13:51:28",
+        "03:10:00:18"
+      ],
+      "ranks": {
+        "semantic": null,
+        "keyword": null,
+        "hybrid": null,
+        "hybrid+rerank": null
+      }
+    },
+    {
+      "q": "How well did the crew sleep on their first night in space?",
+      "expect": [
+        "00:23:11:22",
+        "00:23:18:45"
+      ],
+      "ranks": {
+        "semantic": 7,
+        "keyword": null,
+        "hybrid": 7,
+        "hybrid+rerank": 1
+      }
+    },
+    {
+      "q": "What did the commander say at lift-off?",
+      "expect": [
+        "00:00:00:02"
+      ],
+      "ranks": {
+        "semantic": null,
+        "keyword": null,
+        "hybrid": null,
+        "hybrid+rerank": null
+      }
+    },
+    {
+      "q": "What did Mission Control think of the TV broadcast before the accident?",
+      "expect": [
+        "02:07:46:01",
+        "02:07:50:05"
+      ],
+      "ranks": {
+        "semantic": 5,
+        "keyword": null,
+        "hybrid": 1,
+        "hybrid+rerank": 3
+      }
+    },
+    {
+      "q": "What did the commander say they had to do with the lithium hydroxide canisters?",
+      "expect": [
+        "03:08:30:28"
+      ],
+      "ranks": {
+        "semantic": null,
+        "keyword": null,
+        "hybrid": null,
+        "hybrid+rerank": null
+      }
+    },
+    {
+      "q": "When does radio blackout begin during re-entry?",
+      "expect": [
+        "05:07:52:01"
+      ],
+      "ranks": {
+        "semantic": 4,
+        "keyword": null,
+        "hybrid": null,
+        "hybrid+rerank": 1
+      }
+    },
+    {
+      "q": "What did Swigert say about a lunar module impact?",
+      "expect": [
+        "03:06:03:09"
+      ],
+      "ranks": {
+        "semantic": null,
+        "keyword": null,
+        "hybrid": null,
+        "hybrid+rerank": null
+      }
+    },
+    {
+      "q": "What caused the service module RCS B warning light after the accident?",
+      "expect": [
+        "02:08:39:05"
+      ],
+      "ranks": {
+        "semantic": null,
+        "keyword": 10,
+        "hybrid": null,
+        "hybrid+rerank": 3
+      }
+    },
+    {
+      "q": "What capability did the crew confirm about the S-IVB during launch?",
+      "expect": [
+        "00:00:05:44",
+        "00:00:05:52"
+      ],
+      "ranks": {
+        "semantic": null,
+        "keyword": 2,
+        "hybrid": 5,
+        "hybrid+rerank": null
+      }
+    },
+    {
+      "q": "Did Houston want to do a descent engine burn immediately after the oxygen loss?",
+      "expect": [
+        "02:09:24:54"
+      ],
+      "ranks": {
+        "semantic": null,
+        "keyword": null,
+        "hybrid": null,
+        "hybrid+rerank": null
+      }
+    },
+    {
+      "q": "What was the plan for charging the command module battery before entry?",
+      "expect": [
+        "04:14:23:40"
+      ],
+      "ranks": {
+        "semantic": 1,
+        "keyword": 7,
+        "hybrid": 2,
+        "hybrid+rerank": 1
+      }
+    },
+    {
+      "q": "What was the weather like in the landing area?",
+      "expect": [
+        "05:18:46:33"
+      ],
+      "ranks": {
+        "semantic": 1,
+        "keyword": 5,
+        "hybrid": 1,
+        "hybrid+rerank": 3
+      }
+    }
+  ]
+}

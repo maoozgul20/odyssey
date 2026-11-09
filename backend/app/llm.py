@@ -59,3 +59,11 @@ async def stream_chat(system: str, user: str, temperature: float = 0.2, max_toke
                         yield piece
         except httpx.HTTPError as e:
             raise LLMError("Could not reach the AI provider. Check the internet connection.") from e
+
+
+async def complete(system: str, user: str, max_tokens: int = 300) -> str:
+    """A short, non-streamed answer (used to rewrite search queries)."""
+    out = []
+    async for piece in stream_chat(system, user, temperature=0.0, max_tokens=max_tokens):
+        out.append(piece)
+    return "".join(out).strip()

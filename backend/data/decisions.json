@@ -1,0 +1,93 @@
+[
+  {
+    "id": "power-down",
+    "title": "First response to the undervolt",
+    "decide_at": "02:08:15:30",
+    "question": "Main bus B is undervolt and the fuel cells are sagging. What do you tell the crew first?",
+    "options": [
+      {"id": "a", "text": "Cut electrical load: power down about 10 amps using the emergency pink pages of the checklist."},
+      {"id": "b", "text": "Try to restart all three fuel cells right away."},
+      {"id": "c", "text": "Fire the main engine now and head straight home."}
+    ],
+    "nasa": "a",
+    "evidence": {"from": "02:08:14:00", "to": "02:08:20:00", "query": "power down delta of 10 amps pink pages emergency checklist"}
+  },
+  {
+    "id": "reac-valve",
+    "title": "Chasing the leak",
+    "decide_at": "02:08:56:30",
+    "question": "Telemetry shows oxygen flowing out through fuel cell 3. What do you ask the crew to do?",
+    "options": [
+      {"id": "a", "text": "Open the cross-feed so oxygen tank 1 can supply fuel cell 3."},
+      {"id": "b", "text": "Close the reactant (REAC) valve on fuel cell 3 to try to stop the leak."},
+      {"id": "c", "text": "Ignore it; fuel cells 1 and 2 can carry the load."}
+    ],
+    "nasa": "b",
+    "evidence": {"from": "02:08:56:00", "to": "02:09:01:00", "query": "losing O2 flow fuel cell 3 close the REAC valve"}
+  },
+  {
+    "id": "lifeboat",
+    "title": "The lifeboat",
+    "decide_at": "02:09:24:05",
+    "question": "Oxygen tank 1 is now slowly going to zero too. Odyssey will soon have no power or oxygen. What do you start planning?",
+    "options": [
+      {"id": "a", "text": "Stay in Odyssey and ration oxygen and power."},
+      {"id": "b", "text": "Separate from the lunar module to save weight."},
+      {"id": "c", "text": "Move the crew into the lunar module Aquarius and use it as a lifeboat."}
+    ],
+    "nasa": "c",
+    "evidence": {"from": "02:09:23:50", "to": "02:09:30:00", "query": "O2 tank 1 going to zero LM lifeboat"}
+  },
+  {
+    "id": "free-return",
+    "title": "Getting back on a path home",
+    "decide_at": "02:12:52:35",
+    "question": "Apollo 13 left the free-return path to aim for the landing site. The service module engine sits next to the explosion. How do you put them back on a path home?",
+    "options": [
+      {"id": "a", "text": "Fire the service module's big engine (SPS) for a fast direct abort."},
+      {"id": "b", "text": "Use the lunar module's descent engine (DPS) for a midcourse burn back to free return."},
+      {"id": "c", "text": "Do nothing and let the Moon's gravity bring them home."}
+    ],
+    "nasa": "b",
+    "evidence": {"from": "02:12:52:00", "to": "02:13:40:00", "query": "P30 maneuver pad midcourse correction for free return Aquarius burn"}
+  },
+  {
+    "id": "pc-plus-2",
+    "title": "Speeding up after the Moon",
+    "decide_at": "02:15:04:30",
+    "question": "On free return the trip home is long. A burn two hours after passing behind the Moon (PC+2) could shorten it. What do you plan?",
+    "options": [
+      {"id": "a", "text": "Plan a PC+2 burn with the descent engine to speed up the return."},
+      {"id": "b", "text": "No burn: save every drop of fuel and accept the longer trip."},
+      {"id": "c", "text": "Turn around before reaching the Moon."}
+    ],
+    "nasa": "a",
+    "evidence": {"from": "02:15:04:00", "to": "03:07:40:00", "query": "PC plus 2 maneuver pad DPS burn"}
+  },
+  {
+    "id": "mailbox",
+    "title": "The CO2 crisis",
+    "decide_at": "03:08:20:20",
+    "question": "The lunar module's CO2 filters can't last for three people, and the command module's square canisters don't fit the LM's round sockets. What do you do?",
+    "options": [
+      {"id": "a", "text": "Move the crew back into the command module."},
+      {"id": "b", "text": "Rely on the two spare cartridges in the spacesuit backpacks."},
+      {"id": "c", "text": "Have the crew build an adapter from command module canisters, hoses, cardboard and tape: the \"mailbox\"."}
+    ],
+    "nasa": "c",
+    "evidence": {"from": "03:08:20:00", "to": "03:19:13:00", "query": "command module LiOH canisters connect hoses mailbox procedure"}
+  },
+  {
+    "id": "separation",
+    "title": "The separation order",
+    "decide_at": "04:14:23:30",
+    "question": "Before re-entry the crew must leave the damaged service module and the lunar module behind. What is the plan?",
+    "options": [
+      {"id": "a", "text": "Charge Odyssey's battery from the LM, jettison the service module first, then the LM, then re-enter in Odyssey."},
+      {"id": "b", "text": "Jettison the LM first and re-enter with the service module still attached."},
+      {"id": "c", "text": "Re-enter inside the lunar module."}
+    ],
+    "nasa": "a",
+    "evidence": {"from": "04:14:23:00", "to": "05:21:40:00", "query": "charge the battery in CSM jettison the service module LM jettison entry"}
+  }
+]

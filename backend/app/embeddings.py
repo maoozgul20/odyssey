@@ -43,3 +43,32 @@ def rerank(query: str, docs: list[str]) -> list[float]:
 
 def to_pgvector(v: list[float]) -> str:
     return "[" + ",".join(f"{x:.6f}" for x in v) + "]"
+
+
+# ---------- CLIP: one vector space for pictures and words (Station 2, Mars) ----------
+CLIP_TEXT = "Qdrant/clip-ViT-B-32-text"
+CLIP_VISION = "Qdrant/clip-ViT-B-32-vision"
+
+
+@lru_cache(maxsize=1)
+def _clip_text():
+    from fastembed import TextEmbedding
+
+    return TextEmbedding(CLIP_TEXT)
+
+
+@lru_cache(maxsize=1)
+def _clip_vision():
+    from fastembed import ImageEmbedding
+
+    return ImageEmbedding(CLIP_VISION)
+
+
+def clip_text(text: str) -> list[float]:
+    """Words -> the CLIP space, so they can be compared with pictures."""
+    return next(iter(_clip_text().embed([text]))).tolist()
+
+
+def clip_images(images: list, batch_size: int = 16) -> list[list[float]]:
+    """File paths (or PIL images) -> CLIP vectors."""
+    return [v.tolist() for v in _clip_vision().embed(images, batch_size=batch_size)]
