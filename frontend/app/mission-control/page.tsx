@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Comms } from "@/components/Comms";
 import { Debrief, DecisionModal } from "@/components/Decision";
-import { SpaceScene } from "@/components/SpaceScene";
+import { SeleneBackdrop } from "@/components/selene/SeleneBackdrop";
 import { Brand } from "@/components/StationNav";
 import { Radio } from "@/components/Radio";
 import { Timeline } from "@/components/Timeline";
@@ -178,7 +178,7 @@ export default function MissionControl() {
 
   return (
     <div className={`mocr ${alarm ? "is-alarm" : ""}`}>
-      <SpaceScene variant="ambient" />
+      <SeleneBackdrop />
       <header className="top">
         <Brand current="/mission-control" />
 

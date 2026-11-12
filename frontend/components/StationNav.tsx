@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Orbit } from "lucide-react";
+import { Crescent } from "@/components/selene/Chrome";
 
 export const STATIONS = [
   { href: "/mission-control", n: 1, name: "Mission Control" },
@@ -26,7 +26,7 @@ export function Brand({ current }: { current: string }) {
   return (
     <div className="mission-brand brand">
       <Link href="/" className="back-orbit" aria-label="Back to stations">
-        <Orbit size={20} />
+        <Crescent className="sl-crescent" />
       </Link>
       <div>
         <Link href="/" className="brand-word">

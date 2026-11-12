@@ -1,4 +1,4 @@
-import { SpaceScene } from "@/components/SpaceScene";
+import { SeleneBackdrop } from "@/components/selene/SeleneBackdrop";
 import { Brand } from "@/components/StationNav";
 
 /** The frame every station shares: the ODYSSEY header and a title strip. */
@@ -17,7 +17,7 @@ export function Shell({
 }) {
   return (
     <div className="station" data-st={station}>
-      <SpaceScene variant="ambient" />
+      <SeleneBackdrop />
       <header className="top st-top">
         <Brand current={current} />
         <div className="st-title">
